@@ -14,4 +14,14 @@ public class Bear extends Mammal implements HasFur{
     public void show_fure() {
         System.out.printf("У %s есть шерсть",super.name);
     }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
